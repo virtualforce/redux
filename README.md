@@ -8,7 +8,7 @@ Flux is the application architecture that Facebook uses for building client-side
 https://github.com/virtualforce/FLux
 
 
-# Components of flux
+# Components of redux
 
 1) Store
 2) Reducer
@@ -26,7 +26,7 @@ Reducers are functions that are used to update store.
 # Redux Rule
 we can not update state in store directly. every states need to be update by reducer
 
-# Follow 
+# Flow 
 1) User trigger actions which has Action type and payload.
 2) That payload and action type will be passed to reducers where he will determine what state need to update
 3) Store will hold that updated state inside their container
